@@ -1,0 +1,62 @@
+
+.attribution { font-size: 11px; text-align: center; }
+.attribution a { color: hsl(228, 45%, 44%); }
+body{
+    font-family: 'Karla', sans-serif;
+}
+.row{
+    color: hsl(204, 43%, 93%);
+    display: table;
+    clear: both;
+    background:hsl(179, 62%, 43%);
+}
+.column {
+    float: left;
+    width: 25%;
+    padding: 10px;
+
+}
+@media screen and (max-width: 600px) {
+    .column  {
+        width: 100%;
+    }
+}
+.column2{
+    float: left;
+    width: 25%;
+    padding-left: 350px;
+
+}
+#thirty{
+    color:hsl(71, 73%, 54%) ;
+}
+.section2{
+    color: hsl(204, 43%, 93%);
+}
+.section1{
+    margin: 1%;
+}
+#prices{
+    display:inline;
+}
+#prices2{
+    display:inline;
+}
+#signUp{
+    color: hsl(204, 43%, 93%);
+    padding-top: 10px;
+    padding-left: 40px;
+    margin-right: 120px;
+    background-color:hsl(71, 73%, 54%) ;
+    padding-bottom: 10px;
+    border-radius: 10px;
+
+}
+#Join{
+    color:hsl(179, 62%, 43%);
+}
+
+/*Light Gray: hsl(204, 43%, 93%)*/
+/*- Grayish Blue: hsl(218, 22%, 67%)*/
+/*Cyan: hsl(179, 62%, 43%) */
+/*- Bright Yellow: hsl(71, 73%, 54%)*/
