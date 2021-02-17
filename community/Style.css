@@ -8,12 +8,13 @@ body{
     color: hsl(204, 43%, 93%);
     display: table;
     clear: both;
-    background:hsl(179, 62%, 43%);
+    background:hsl(179, 62%, 50%);
 }
 .column {
     float: left;
     width: 25%;
     padding: 10px;
+    background:hsl(179, 62%, 43%);
 
 }
 @media screen and (max-width: 600px) {
@@ -24,8 +25,8 @@ body{
 .column2{
     float: left;
     width: 25%;
-    padding-left: 350px;
-
+    padding-left: 30px;
+    background:hsl(179, 62%, 50%);
 }
 #thirty{
     color:hsl(71, 73%, 54%) ;
