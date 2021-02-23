@@ -1,0 +1,75 @@
+/*table{*/
+/*    border: solid 1pt black;*/
+
+/*}*/
+table{
+    border: solid 1pt black;
+}
+td{
+    border: solid 1pt black;
+}
+
+/*table{*/
+/*    border: solid 1pt black;*/
+/*    border-collapse: collapse;*/
+/*}*/
+/*td{*/
+/*    border: solid 1pt black;*/
+/*}*/
+
+/*table{*/
+/*    border: solid 1pt black;*/
+/*    border-collapse: collapse;*/
+/*}*/
+/*td{*/
+/*    border: solid 1pt black;*/
+/*    padding: 10pt;*/
+/*}*/
+
+/*table{*/
+/*    border: solid 1pt black;*/
+/*    border-spacing: 10px;*/
+/*}*/
+/*td{*/
+/*    border: solid 1pt black;*/
+
+/*}*/
+caption{
+    font-weight: bold;
+    padding: 0.25em 0 0.25em 0;
+    text-align: left;
+    text-transform: uppercase;
+    border-top: 1px solid #DCA806;
+}
+table {
+    font-size: 0.8em;
+    font-family: Arial, sans-serif;
+    border-collapse: collapse;
+    border-top: 4px solid #DCA806;
+    border-bottom: 1px solid white;
+    text-align: left;
+}
+thead tr{
+    background-color: #CACACA;
+}
+th{
+    padding: 0.75em;
+    background-color: red;
+ }
+tbody tr{
+    background-color: #F1F1F1;
+    border-bottom: 1px solid white;
+    color: #6E6E6E;
+}
+tbody td{
+    padding: 0.75em;
+}
+tbody tr:nth-child(even){
+
+    color:peru;
+}
+tbody tr:hover{
+    background-color: lightgray;
+    color: cadetblue;
+}
+
