@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Form</title>
+</head>
+<body>
+<form method="post" action="process.php">
+    <fieldset>
+        <legend>Details</legend>
+        <p>
+            <label>Title:</label>
+            <input type="text" name="title"/>
+        </p>
+        <p>
+            <label>Country</label>
+            <select name="where">
+                <option>Choose a country</option>
+                <option>Canada</option>
+                <option>Finland</option>
+                <option>United States</option>
+            </select>
+        </p>
+        <input type="submit"/>
+        <input type="reset"/>
+    </fieldset>
+</form>
+
+<form method="post" action="process.php">
+<fieldset>
+    <legend>Sign up</legend>
+    <div>
+        Name:<input type="text"/>
+        <br>
+        <br>
+        UserName:<input type="text"/>
+        <br>
+        <br>
+        Password:<input type="password" />
+        <br>
+        <br>
+        Address:<input type="text"/>
+        <br>
+        <br>
+        Gender:<select>
+                <option></option>
+                <option>Male</option>
+                <option>Female</option>
+            </select>
+        <br>
+        <br>
+        Country:<select>
+                    <option></option>
+                    <option>Choose a country</option>
+                    <option>Canada</option>
+                    <option>Finland</option>
+                    <option>United States</option>
+                </select>
+        <br>
+        <br>
+        Search city:<input type="text" name="city" list="cities"/>
+        <datalist id="cities" >
+            <option>Calcutta</option>
+            <option>Calgary</option>
+            <option>London</option>
+            <option>Los Angeles</option>
+            <option>Paris</option>
+            <option>Prague</option>
+        </datalist>
+        <br>
+        <br>
+        PhoneNumber<input type="tel"/>
+        <br>
+        <br>
+        Choices:<select name="choices">
+                <option>First</option>
+                <option selected>Second</option>
+                <option>Third</option>
+              </select>
+        <br>
+        <br>
+        City:<select>
+            <optgroup label="North America">
+                <option>Calgary</option>
+                <option>Los Angeles</option>
+            </optgroup>
+            <optgroup label="Europe">
+                <option>London</option>
+                <option>Paris</option>
+                <option>Prague</option>
+            </optgroup>
+        </select>
+        <br>
+        <br>
+        <input type="submit">
+        <br>
+        <br>
+        <input type="Reset">
+
+
+
+    </div>
+</fieldset>
+</form>
+</body>
+</html>
