@@ -1,0 +1,207 @@
+
+.navBar a.active {
+    background-color: pink;
+    color: white;
+    float: right;
+}
+.navBar a.pink {
+    font-size: 30px;
+    color: pink;
+    float: left;
+}
+.active{
+    background-color: pink;
+    color: white;
+}
+
+.navBar {
+    overflow: hidden;
+    background-color: white;
+    padding-left: 15%;
+}
+.navBarX a{
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+}
+.navBarX a.active2{
+    background-color: pink;
+    color: white;
+    float: left;
+}
+.navBar a {
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+}
+
+.navBar a:hover {
+    background-color: #ddd;
+    color: black;
+}
+.pink{
+    float: left;
+    color: pink;
+    font-weight: bold ;
+}
+
+.black{
+    float: right;
+    color: black;
+}
+.asset1{
+display: flex;
+background-color: white;
+padding-left: 15%;
+    font-size: 30px;
+}
+.assetImage{
+    padding-left: 25% ;
+}
+.active2{
+    background-color: pink;
+    color: white;
+    float: left;
+
+}
+img{
+    padding-left: 1%;
+}
+.aboutOwner{
+
+    display: flex;
+    background-color: white;
+    padding-left: 15%;
+}
+#aboutMe{
+    color: pink;
+}
+.assetImage2{
+    padding-bottom: 10%;
+    padding-left: 10% ;
+}
+.aboutText{
+    font-size: 25px;
+}
+.TimeOwner{
+    padding-bottom: 5%;
+    background-color: white;
+    padding-left: 15%;
+}
+
+.aboutUs{
+    padding-left: 1%;
+    color: pink;
+}
+.year1{
+    color: grey;
+    font-size: 20px;
+}
+.year2{
+    padding-left: 30%;
+}
+.year3{
+    padding-left: 35.8%;
+}
+.country1{
+    color: grey;
+}
+.country2{
+    color: grey;
+}
+.otherPart{
+    padding-left: 26%;
+}
+.firstPart{
+    font-size: 20px;
+    line-height: 1.7%;
+
+}
+.linkedIn{
+    padding-left: 55%;
+    font-size: 50%;
+    color: grey;
+    text-space: 15%;
+}
+.headings{
+    border-bottom: 1px solid black;
+}
+.otherPart2{
+    padding-left: 24%;
+}
+.otherPart3{
+    padding-left: 32%;
+}
+.otherPart4{
+    padding-left: 28.4%;
+}
+.education2{
+    padding-top: 2%;
+}
+.skills1{
+    box-sizing: content-box;
+    width: 200px;
+    height: 230px;
+    padding: 30px;
+
+    box-shadow:1px  3px 3px#888888;
+}
+.displayIcon{
+    display: flex;
+
+}
+.displayIcon2{
+    display: flex;
+    padding-top: 2%;
+}
+.displayIconB{
+    padding-left: 2%;
+}
+.displayIconC{
+    padding-left: 35%;
+}
+
+.displayIconX{
+    padding-left: 45%;
+}
+.displayIconY{
+    padding-left: 32%;
+}
+.displayIconZ{
+    padding-left: 20%;
+}
+.skills2{
+    box-sizing: content-box;
+    width: 200px;
+    height: 230px;
+    padding: 30px;
+
+    box-shadow:1px  3px 3px#888888;
+}
+.skillSpacing{
+    padding-left: 20%;
+}
+.skillSet{
+    font-size: 22px;
+}
+.skillSetB{
+    color:pink ;
+}
+.skillSetX{
+    font-size: 20px;
+}
+.find{
+    color: pink;
+}
+.MeOn{
+    color: black;
+}
+.footer{
+    font-size: 24px;
+    color: white;
+    background-color: pink;
+    text-align: center;
+    padding: 0.3%;
+}
