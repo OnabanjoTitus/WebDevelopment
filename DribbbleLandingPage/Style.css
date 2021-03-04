@@ -1,0 +1,180 @@
+html {
+    height:100%;
+    background-image: linear-gradient(to right, #E19D38, #CCB2A8,#B35598);
+}
+.container{
+    margin-right: 5%;
+    margin-left: 5%;
+    margin-top: 10%;
+    display: flex;
+    background-color: white;
+    border-radius: 16px;
+}
+.row1{
+    border-bottom-left-radius: 16px;
+    border-top-left-radius: 16px;
+    width: 30%;
+    background-color:#F3D287;
+
+}
+
+.orTag{
+    margin-top: 5%;
+    margin-left: 35%;
+}
+img{
+       margin-right: 18%;
+    height: 340px;
+    background:none;
+}
+.row2{
+    width: 70%;
+}
+#SignUp{
+    text-align: center;
+}
+.googleButton{
+
+    background-color: blue;
+    color: white;
+    cursor: pointer;
+    font-size:24px;
+    border-radius: 8px;
+}
+.googleText{
+    font-size: 12px;
+}
+.twitterButton{
+    color: gray;
+    cursor: pointer;
+    font-size:24px;
+}
+.facebookButton{
+    color: gray;
+    cursor: pointer;
+    font-size:24px;
+
+}
+.Already{
+    font-size: 12px;
+    float: right;
+    margin: 0.2%;
+}
+.Already2{
+    font-size: 12px;
+    float: right;
+    color: blue;
+    margin: 0.2%;
+}
+.formContainer{
+    margin-right: 5%;
+    margin-left: 5%;
+    margin-top: 2%;
+}
+.fullName{
+    font-weight: bold;
+    font-size: 16px;
+    margin-right: 10%;
+}
+#Username{
+    margin-left: 10%;
+
+}
+.dribbbleHead{
+    margin-left: 24%;
+    color: gray;
+    font-size: 14px;
+    font-family:pacifico,cursive;
+}
+.discover{
+    margin-left: 24%;
+    color: gray;
+    font-family: "Comic Sans MS",cursive;
+    font-size: 24px;
+    margin-bottom: 10%;
+}
+.dribbbleFooter{
+    margin-left: 24%;
+    color: gray;
+
+}
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight:bold;
+}
+
+
+
+/* Style inputs */
+input[type=text], select, textarea {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    margin-top: 6px;
+    margin-bottom: 16px;
+    resize: vertical;
+}
+
+input[type=submit] {
+    background-color: #4CAF50;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    cursor: pointer;
+}
+
+input[type=submit]:hover {
+    background-color: #45a049;
+}
+
+/* Style the container/contact section */
+
+
+/* Create two columns that float next to eachother */
+.column {
+    float: left;
+    width: 30%;
+    margin-top: 6px;
+    padding: 20px;
+}
+#lname{
+    width: 217%;
+}
+#password{
+    width: 217%;
+}
+
+#checkbox{
+    size: 8px;
+}
+#submit{
+   background: #dc53e1;
+    width: 100%;
+    border-radius: 5px;
+}
+/* Clear floats after the columns */
+.rowForm:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+.rowForm{
+    text-align: left;
+    margin-left: 30%;
+}
+.text1{
+    font-weight: bold;
+    font-size: 10px;
+}
+.terms{
+    color: #27b6e1;
+}
+.text{
+    font-size: 8px;
+}
+.mainFooter{
+    margin-top: 0.5%;
+    color: #27b6e1;
+    text-align: center;
+    font-size: 12px;
+}
